@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mybikeshop-4f173",
+  "private_key_id": "06e2213392f5bc876d8aa83ed2a9e2aebcd56c45",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAI2NynoO6rvTi\nPdesosZe+KDgXYaMG5NRBW6gGLXobqAhZCRaYcUM/4iywOxTp0YVw/fs2dOXUpTm\nclH1cqs9/Reu0gww7W1kYkdlnorjItSWaba4qKNrhChAXgjMVOhIIRVUp1wcaw0H\ndXZZNg8ZE0m7wZj4O1gqC0B6kZ6FMFGeXMafxj/gGx0FXReBp3LJ2pQh5vNNK1zf\nG6hLFO8OKmDNC42+MfdsA6sCAXwT4CXletTJCpxoU6A4Zh+xW78jiHS3kMKAKKPW\nWGQHYhDYqtLyzEssOoV1ZCWgCcRVhvs35MuWz4Qowsbzp1w3nEY96IOo6/Qb1VGe\ndBAUDAF7AgMBAAECggEAApfUHmS+PPmIKvzB3S05NiY/dLE1jN/uGjKHuAO2P+Rl\nuh0MEBvDPfmOOtlKcUssTguPzgVxPMEaApvQS0fEWIrTQ6EAPCgRo0B8TWBiuODG\nYx+pJ630AQjC8K2F/T6k/+PpOkSfOGZfPUX5tS2z2tTRU9ITPsTqagaNOFWD5G6y\nSvnjtMN4CK525zBUlpr3AD1rY6tyJVa97vQ9IIIQqw2jo80uVxkX9FWUQMxToFBe\nZIqyPPx9BLHtueTa/juW56vjUNp62Gpddl8Ga1ZGU3WQh7bCJARS2x8csbo+deeK\nMbScpp5JIiTZae68+mfdBaaFvuWML8PQI5LPdiRSKQKBgQD6rMI3yNC3NWERUykT\n4u8cvlv6U81fHzmE0DkJnbDV9tfNW1VrBaSYiBnmMapAcUb5/NB/gZw6drDyfjCl\n2Ssb+Gq/B1PvYixrA8q9/5b12jzZSl/OPCRfEpY7UCS/9pHdpj101sCDzNkPsWZk\nrP0W6YAaZnec08FU7nhI+KBrRQKBgQDEOEqCMboN+llCPg+3j16250z32H4DOVyT\n1Ce1AULIjQ4cjT+580zHf8Omj31ThsVpTkN0Uaw2km/4Ss0OAn5Its/2ah0z31IR\nyD02zdLK6HbVNzbKqwCTWkqWJMPkWcpY18ZHwvioe3SnoM0tBh371UNmHYPL2BwT\ngVhzgZ8lvwKBgHhzeOObQAc4xAqyHgPrQKBcLBAuInn5pAbYkv+24Rj/ApUvtOy3\nCm8svt0osjlC9Sr8Oyd5nRtOmxn6Xt/iaV+IT6q5F7DoSJWnfc0sOlqqYiC7JywP\nJB727G9VxELldRO/ZLp20ozCau6qfJwVr4tJ6f9Fi2Y1LinkaLIPne3NAoGAKHJG\nAYJIjLsPDRWH3dmCt4cEGY6ZowZ+68XujWP+JSLWRtJi0WyyZekTJlErjz0XkjZc\ntyxiqDkVNYQNspaW+1wbj/qdnGSrIRk6bQKOMd8rJ5YjCDGpg7Y3660WaAqOKDQK\nHh61bN1N1YPS5zX8lj2GkBUDZtBcMTUXS2/rozcCgYBNnAvFzc1UZDWFoDB5u2TQ\nMTbY2bZrOIDzhrG6cPoa4NHtTHUeAlS0mWhg84IlsdjEO4XAMfh1A12gFVXn7cOx\nKmg9nvH4ssUtm5TP7Q37RYmUshyu2BwM6ibkVczH4zYsHkQZ2hmF+NBB0z8nvH4q\nMZbk4A4yEgxQ0nSUjzmc6w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-rkl7t@mybikeshop-4f173.iam.gserviceaccount.com",
+  "client_id": "102138460922681894483",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-rkl7t%40mybikeshop-4f173.iam.gserviceaccount.com"
+}
