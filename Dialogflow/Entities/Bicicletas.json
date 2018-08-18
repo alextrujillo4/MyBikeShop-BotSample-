@@ -1,0 +1,40 @@
+{
+  "id": "510b16d5-7967-4c3e-a8a6-1cf9760884fc",
+  "name": "Bicicletas",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "De montaña",
+      "synonyms": [
+        "De montaña",
+        "para montaña",
+        "de monte",
+        "para monde",
+        "de cerro",
+        "para cerro",
+        "bici de cerro",
+        "bicicleta de montaña"
+      ]
+    },
+    {
+      "value": "Urbana",
+      "synonyms": [
+        "Urbana",
+        "para ciudad",
+        "para metrópoli",
+        "bicicleta urbana",
+        "bici urbana"
+      ]
+    },
+    {
+      "value": "Hibrida",
+      "synonyms": [
+        "Hibrida",
+        "mixto",
+        "bicicleta mixta"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "4fa0b629-f7fa-43f3-8bea-c9776b678563",
+  "parentId": "f6648c8e-7597-40e8-b178-bef3f7cff163",
+  "rootParentId": "f6648c8e-7597-40e8-b178-bef3f7cff163",
+  "name": "Precios[Inompleta] - fallback",
+  "auto": false,
+  "contexts": [
+    "PreciosInompleta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PreciosInompleta.PreciosInompleta-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Lo siento. No he entendido ¿Podrías repetirme qué tipo de bicicleta?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534475850,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

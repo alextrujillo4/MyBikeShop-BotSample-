@@ -1,0 +1,160 @@
+{
+  "id": "b4f47d52-bfec-46c3-9300-d30607740272",
+  "parentId": "f6648c8e-7597-40e8-b178-bef3f7cff163",
+  "rootParentId": "f6648c8e-7597-40e8-b178-bef3f7cff163",
+  "name": "Precios[Inompleta] - correcta",
+  "auto": true,
+  "contexts": [
+    "PreciosInompleta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PreciosInompleta.PreciosInompleta-custom",
+      "affectedContexts": [
+        {
+          "name": "PreciosInompleta-correcta-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4ab28bf4-076c-424c-a176-167c0a002aae",
+          "required": false,
+          "dataType": "@Bicicletas",
+          "name": "Bicicletas",
+          "value": "$Bicicletas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534489718,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "cdc3b652-059d-45da-a397-df04374503ac",
+      "data": [
+        {
+          "text": "de montaña",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534475933,
+      "isAuto": false
+    },
+    {
+      "id": "d2f2470b-0d82-4c26-a92e-042c6126c475",
+      "data": [
+        {
+          "text": "bici "
+        },
+        {
+          "text": "de monte",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534475338,
+      "isAuto": false
+    },
+    {
+      "id": "b0166c57-667a-4e28-b3ec-86b46b3ae734",
+      "data": [
+        {
+          "text": "bicicleta "
+        },
+        {
+          "text": "mixta",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534475338,
+      "isAuto": false
+    },
+    {
+      "id": "73713d4f-e4d4-4ec0-98f2-5c139cb357df",
+      "data": [
+        {
+          "text": "de bicicleta "
+        },
+        {
+          "text": "de montaña",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534475338,
+      "isAuto": false
+    },
+    {
+      "id": "4f162b7e-f2e2-4fd6-b358-148ddcd4301f",
+      "data": [
+        {
+          "text": "sobre bici "
+        },
+        {
+          "text": "de monte",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534475338,
+      "isAuto": false
+    },
+    {
+      "id": "5c8bf717-fa05-4f6c-9739-f4cd4e85f2be",
+      "data": [
+        {
+          "text": "sobre  bicicleta "
+        },
+        {
+          "text": "urbana",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534475338,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

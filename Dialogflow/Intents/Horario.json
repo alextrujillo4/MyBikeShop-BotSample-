@@ -1,0 +1,144 @@
+{
+  "id": "067ba108-9600-4562-ac5f-a04168516b2a",
+  "name": "Horario",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Abrimos de Lunes a Sábado de 8:00 am a 8:00 pm"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Oh que cool"
+            },
+            {
+              "title": "Gracias"
+            }
+          ],
+          "lang": "es"
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Abrimos de Lunes a Sábado de 8:00 am a 8:00 pm",
+            "Nuestro horario es de Lunes a Sábado de 8:00 a 20:00 horas"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534468127,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "b07cea4e-f90b-4d28-8d8e-d7694b4c0e55",
+      "data": [
+        {
+          "text": "a que hora abren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527888317,
+      "isAuto": false
+    },
+    {
+      "id": "a6eb55e0-df91-4ec2-8ae6-b9246582e835",
+      "data": [
+        {
+          "text": "Cual es su horario"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527888317,
+      "isAuto": false
+    },
+    {
+      "id": "c8f1d2e3-6724-43c4-ba37-0ffedb0275c9",
+      "data": [
+        {
+          "text": "de que hora a que hora abren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527888317,
+      "isAuto": false
+    },
+    {
+      "id": "1a0c20dd-8043-448a-8d74-36962b8ac979",
+      "data": [
+        {
+          "text": "cuando abren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527888317,
+      "isAuto": false
+    },
+    {
+      "id": "e4d7ac2c-adb1-4d22-8470-6568e21fa2a4",
+      "data": [
+        {
+          "text": "que horario tienen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527888317,
+      "isAuto": false
+    },
+    {
+      "id": "19ce3f18-0e3c-4e62-87fc-543bc6c89122",
+      "data": [
+        {
+          "text": "a que hora cierran"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527888317,
+      "isAuto": false
+    },
+    {
+      "id": "8232d268-fa14-4de5-9e0d-217f4aabee28",
+      "data": [
+        {
+          "text": "cual es la hora en que atienden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1527888317,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,136 @@
+{
+  "id": "f6648c8e-7597-40e8-b178-bef3f7cff163",
+  "name": "Precios[Incompleta]",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "PreciosInompleta-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "¿Sobre qué bicicleta te gustaría saber el precio?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Bicicleta de montaña"
+            },
+            {
+              "title": "Bicicleta urbana"
+            },
+            {
+              "title": "Bicicleta mixta"
+            }
+          ],
+          "lang": "es"
+        },
+        {
+          "type": 0,
+          "speech": "¿Sobre qué bicicleta te gustaría saber el precio?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534489517,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7a0ed151-c632-45f7-9ca4-d39deb9050a5",
+      "data": [
+        {
+          "text": "dime precio de bici"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534489517,
+      "isAuto": false
+    },
+    {
+      "id": "ed992813-35b1-4334-949b-28e3404b4200",
+      "data": [
+        {
+          "text": "dime tus precios"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534473915,
+      "isAuto": false
+    },
+    {
+      "id": "75c83d50-e9b4-4a45-8d00-c06b90968253",
+      "data": [
+        {
+          "text": "cuales son tus precios"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534473915,
+      "isAuto": false
+    },
+    {
+      "id": "4a873fd7-f8c1-440e-aaa2-530ecb226c0a",
+      "data": [
+        {
+          "text": "quiero saber el precio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534473915,
+      "isAuto": false
+    },
+    {
+      "id": "a394cf95-7fe4-45b3-acab-6e8e2e340f2e",
+      "data": [
+        {
+          "text": "precio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534473915,
+      "isAuto": false
+    },
+    {
+      "id": "1b755e01-111b-4c33-9cfc-313825f67254",
+      "data": [
+        {
+          "text": "dame precio"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534473915,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

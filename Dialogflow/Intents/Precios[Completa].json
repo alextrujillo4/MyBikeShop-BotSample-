@@ -1,0 +1,138 @@
+{
+  "id": "d8e90672-3ed4-42c9-826d-595d7f6b7ca7",
+  "name": "Precios[Completa]",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9d120b3c-6e4d-4d2a-b60f-b0a76f7f77ca",
+          "required": false,
+          "dataType": "@Bicicletas",
+          "name": "Bicicletas",
+          "value": "$Bicicletas",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534489947,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "44fd7034-d3bc-495a-b4b8-96d911f101ef",
+      "data": [
+        {
+          "text": "quiero precio de bici "
+        },
+        {
+          "text": "de monte",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534472098,
+      "isAuto": false
+    },
+    {
+      "id": "cbe866a8-997f-4bd3-a2a6-2565b30b9e79",
+      "data": [
+        {
+          "text": "dame precio de bicicleta "
+        },
+        {
+          "text": "para ciudad",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534472098,
+      "isAuto": false
+    },
+    {
+      "id": "71a4af45-ea40-4c68-88cc-c4b0151c241d",
+      "data": [
+        {
+          "text": "me podria dar el precio de la bici "
+        },
+        {
+          "text": "mixta",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534472098,
+      "isAuto": false
+    },
+    {
+      "id": "f6821995-72db-4117-a497-9f0ecda4dbbe",
+      "data": [
+        {
+          "text": "precio de bicicleta "
+        },
+        {
+          "text": "urbana",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534472098,
+      "isAuto": false
+    },
+    {
+      "id": "43b9c9ca-3547-4e7a-b094-4dc365578fd1",
+      "data": [
+        {
+          "text": "Quiero precio de bicicleta "
+        },
+        {
+          "text": "de montaña",
+          "alias": "Bicicletas",
+          "meta": "@Bicicletas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1534472098,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
