@@ -38,7 +38,7 @@ app.intent('Precios[Incompleta]', (conv) => {
 
 //Firestore integación
 /*
-app.intent('Precios[Inompleta] - correcta', (conv) => {
+app.intent('Precios[Incompleta] - correcta', (conv) => {
     var modelo = conv.parameters["Bicicletas"];
     var referencia = db.collection("Bicicletas").doc(modelo);
         return referencia.get().then( snap => {
@@ -47,8 +47,8 @@ app.intent('Precios[Inompleta] - correcta', (conv) => {
                 const precio = allData.precio;
 
                 conv.ask(new SimpleResponse({
-            		speech:"El precio de" + modelo + "es de :" + precio,
-                    text:"El precio de" + modelo + "es de :" + precio + "😬",
+            		speech:"El precio de " + modelo + " es de :" + precio,
+                    text:"El precio de " + modelo + " es de : " + precio + " 😬",
                 }));
                  return console.log("Done!");
              }else{
@@ -70,8 +70,8 @@ app.intent('Precios[Completa]', (conv) => {
                 const precio = allData.precio;
 
                 conv.ask(new SimpleResponse({
-            		speech:"El precio de" + modelo + "es de :" + precio,
-                    text:"El precio de" + modelo + "es de :" + precio + "😬",
+            		speech:"El precio de " + modelo + " es de :" + precio,
+                    text:"El precio de " + modelo + " es de : " + precio + " 😬",
                 }));
                  return console.log("Done!");
              }else{
